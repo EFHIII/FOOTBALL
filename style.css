@@ -1,0 +1,72 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  background-color: white;
+  overflow: hidden;
+  background-color: black;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+}
+
+canvas {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+}
+
+p, button {
+  font-family: 'Open Sans', sans-serif;
+}
+
+button {
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 0.3em 1em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  outline: none;
+  transition: 0.2s;
+}
+
+button:hover {
+  background-color: skyblue;
+  cursor: pointer;
+}
+
+#msg-wrapper {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 1em;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  overflow: auto;
+}
+
+#msg-content {
+  text-align: center;
+  background-color: #fefe30;
+  margin: auto;
+  padding: 0.2em;
+  width: 80%;
+}
